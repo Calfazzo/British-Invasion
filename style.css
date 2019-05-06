@@ -19,7 +19,7 @@ body {
     border: 3px solid black;
   }
 
-p{
+.text-box{
   border: 2px solid black;
   background-color: goldenrod;
   padding: 5px;
@@ -67,12 +67,12 @@ p{
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    
   }
 
   .fa-facebook {
     background: #3B5998;
     color: white;
+    
   }
 
   /* The sidebar menu */
@@ -86,7 +86,6 @@ p{
     background-color: silver;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
-    border-right: 1px solid black;
   }
 
   /* The navigation menu links */
@@ -108,4 +107,13 @@ p{
     
   }
   
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: silver;
+    color: black;
+    text-align: center;
+  }
   
